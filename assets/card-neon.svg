@@ -1,0 +1,82 @@
+<svg width="500" height="215" viewBox="0 0 500 215" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dhanush&apos;s Claude Code: 2,400,000 tokens, 7 sessions">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#160b2e"/>
+    <stop offset="100%" stop-color="#05010f"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ff2e97"/>
+    <stop offset="100%" stop-color="#00e5ff"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .t{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
+    /* Pulse only oscillates within a visible range — never hides content. */
+    .pulse{animation:pulse 2.4s ease-in-out infinite;}
+    @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.55;}}
+  </style>
+</defs>
+<rect x="1" y="1" width="498" height="213" rx="14" fill="url(#bg)" stroke="#7b2ff7" stroke-width="1" filter="url(#glow)"/>
+<g>
+  <path class="pulse" transform="translate(26,26)" d="M9 0 L1 9 L7 9 L5 16 L14 6 L8 6 Z" fill="#ff2e97"/>
+  <text x="48" y="40" class="t" font-size="18" font-weight="700" fill="#f5e9ff">Dhanush&apos;s Claude Code</text>
+  <text x="476" y="30" text-anchor="end" class="t" font-size="11" fill="#a892d6">top tool · Edit</text>
+  <text x="476" y="46" text-anchor="end" class="t" font-size="11" fill="#a892d6">busiest · agentcard</text>
+</g>
+<line x1="24" y1="66" x2="476" y2="66" stroke="#7b2ff7" stroke-width="1"/>
+<g>
+    <text x="28" y="104" class="t" font-size="21" font-weight="800" fill="#ff2e97">2.4M</text>
+    <text x="28" y="119" class="t" font-size="10.5" fill="#a892d6">tokens</text>
+  </g>
+<g>
+    <text x="118" y="104" class="t" font-size="21" font-weight="800" fill="#e5d5ff">7</text>
+    <text x="118" y="119" class="t" font-size="10.5" fill="#a892d6">sessions</text>
+  </g>
+<g>
+    <text x="28" y="156" class="t" font-size="21" font-weight="800" fill="#00e5ff">6</text>
+    <text x="28" y="171" class="t" font-size="10.5" fill="#a892d6">day streak</text>
+  </g>
+<g>
+    <text x="118" y="156" class="t" font-size="21" font-weight="800" fill="#e5d5ff">7</text>
+    <text x="118" y="171" class="t" font-size="10.5" fill="#a892d6">active days</text>
+  </g>
+<text x="210" y="90" class="t" font-size="12" font-weight="700" fill="#f5e9ff">Tool usage</text>
+<g>
+    <text x="210" y="102" class="t" font-size="10.5" fill="#e5d5ff">Edit</text>
+    <text x="450" y="102" text-anchor="end" class="t" font-size="10.5" fill="#a892d6">128</text>
+    <rect x="210" y="106" width="240" height="6" rx="3" fill="#241242"/>
+    <rect x="210" y="106" width="240" height="6" rx="3" fill="url(#bar)"/>
+  </g>
+<g>
+    <text x="210" y="123" class="t" font-size="10.5" fill="#e5d5ff">Bash</text>
+    <text x="450" y="123" text-anchor="end" class="t" font-size="10.5" fill="#a892d6">96</text>
+    <rect x="210" y="127" width="240" height="6" rx="3" fill="#241242"/>
+    <rect x="210" y="127" width="180" height="6" rx="3" fill="url(#bar)"/>
+  </g>
+<g>
+    <text x="210" y="144" class="t" font-size="10.5" fill="#e5d5ff">Read</text>
+    <text x="450" y="144" text-anchor="end" class="t" font-size="10.5" fill="#a892d6">73</text>
+    <rect x="210" y="148" width="240" height="6" rx="3" fill="#241242"/>
+    <rect x="210" y="148" width="137" height="6" rx="3" fill="url(#bar)"/>
+  </g>
+<g>
+    <text x="210" y="165" class="t" font-size="10.5" fill="#e5d5ff">Write</text>
+    <text x="450" y="165" text-anchor="end" class="t" font-size="10.5" fill="#a892d6">40</text>
+    <rect x="210" y="169" width="240" height="6" rx="3" fill="#241242"/>
+    <rect x="210" y="169" width="75" height="6" rx="3" fill="url(#bar)"/>
+  </g>
+<g>
+    <text x="210" y="186" class="t" font-size="10.5" fill="#e5d5ff">Grep</text>
+    <text x="450" y="186" text-anchor="end" class="t" font-size="10.5" fill="#a892d6">24</text>
+    <rect x="210" y="190" width="240" height="6" rx="3" fill="#241242"/>
+    <rect x="210" y="190" width="45" height="6" rx="3" fill="url(#bar)"/>
+  </g>
+<g>
+  <path class="pulse" transform="translate(26,194)" d="M9 0 L1 9 L7 9 L5 16 L14 6 L8 6 Z" fill="#ff2e97"/>
+  <a href="https://github.com/Danush-Aries/agentcard" target="_blank" rel="noopener">
+    <text x="40" y="206" class="t" font-size="11" font-weight="700" fill="#ff2e97">agentcard</text>
+  </a>
+  <text x="112" y="206" class="t" font-size="10" fill="#a892d6">· 100% local, nothing leaves your machine</text>
+  <text x="476" y="206" text-anchor="end" class="t" font-size="10" fill="#a892d6">Jun 1, 2026 → Jun 8, 2026</text>
+</g>
+</svg>

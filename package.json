@@ -1,0 +1,54 @@
+{
+  "name": "agentcard",
+  "version": "1.0.0",
+  "description": "github-readme-stats, but for AI pair-programming. Generate a gorgeous embeddable SVG stat card from your real local Claude Code logs.",
+  "keywords": [
+    "claude-code",
+    "github-profile",
+    "readme-stats",
+    "ai-coding",
+    "developer-tools",
+    "svg",
+    "stats-card"
+  ],
+  "type": "module",
+  "bin": {
+    "agentcard": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "assets/demo",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"require('fs').chmodSync('dist/cli.js', 0o755)\"",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node dist/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Dhanush Shankar <danushankar3@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danush-Aries/agentcard.git"
+  },
+  "homepage": "https://github.com/Danush-Aries/agentcard#readme",
+  "bugs": {
+    "url": "https://github.com/Danush-Aries/agentcard/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

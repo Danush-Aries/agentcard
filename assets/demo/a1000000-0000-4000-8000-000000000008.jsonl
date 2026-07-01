@@ -1,0 +1,2 @@
+{"type":"user","sessionId":"a1000000-0000-4000-8000-000000000008","cwd":"/Users/dev/agentcard","timestamp":"2026-06-08T10:00:00.000Z","message":{"role":"user","content":"hi"}}
+{"type":"assistant","sessionId":"a1000000-0000-4000-8000-000000000008","cwd":"/Users/dev/agentcard","timestamp":"2026-06-08T10:01:00.000Z","message":{"model":"claude-opus-4-8","role":"assistant","usage":{"input_tokens":0,"output_tokens":0},"content":[{"type":"tool_use","name":"Read","id":"z1","input":{}}]}}
